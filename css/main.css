@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lilita+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    overflow: hidden;
+    color: #fff;
+}
+
+
+#titulo{
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 85px;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding-top: 10px;
+    margin-left: 20px;
+    
+}
+
+#frase{
+    width: 500px;
+    text-align: center;
+    font-size: 25px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+#inscripcion-btn{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Lilita One", sans-serif;
+    font-size: 50px;
+    border: 2px solid white;
+    border-radius: 30px;
+    transition: 1s ease ;
+}
+
+#inscripcion-btn a{
+    text-decoration: none;
+}
+
+#inscripcion-btn:hover{
+    opacity: 0.5;
+    background-color: #ff6961;
+}
+
+
+
+
+/* Problema de Posicionamiento*/
+/* #triangulo{
+    visibility: hidden;
+    width: 2500px;
+    height: 600px;
+    margin-top: -115px;
+    margin-left: -1300px;
+    position: absolute;
+    opacity: 0.5;
+    top: 0;
+    left: 20px;
+} */
+
+/* 
+.main-content{
+    position: relative;
+} */
+
+
