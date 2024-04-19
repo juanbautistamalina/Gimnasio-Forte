@@ -42,7 +42,7 @@ main{
     margin: 0 auto;
     margin-bottom: 100px;
     /* background: linear-gradient(rgba(255, 0, 0, 0.811),rgb(232, 24, 24)); */
-    animation: text 5s linear infinite
+    animation: text 2s linear infinite
 }
 
 #frase strong{
