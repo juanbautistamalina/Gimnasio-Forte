@@ -1,0 +1,5 @@
+- Hacer la página responsive (Media Queries)
+- Hacer el apartado Programas
+- Hacer el apartado Información
+- Hacer el apartado Contacto
+- Hacer el apartado 

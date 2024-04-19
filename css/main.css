@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lilita+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Varela+Round&display=swap');
 
 *{
     margin: 0;
@@ -15,7 +14,6 @@ html{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    /* height: 100vh; */
 }
 
 main{
@@ -23,16 +21,15 @@ main{
 }
 
 #titulo{
-    font-family: "Jost", sans-serif;
+    font-family: "Varela Round", sans-serif;
     text-align: center;
     letter-spacing: 2px;
     font-weight: bold;
     font-size: 85px;
     color: #fff;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: 2px 2px 0 #006bfb, 2px -2px 0 #006bfb, -2px 2px 0 #006bfb, -2px -2px 0 #006bfb, 2px 0px 0 #006bfb, 0px 2px 0 #006bfb, -2px 0px 0 #006bfb, 0px -2px 0 #006bfb, 2px 2px 0 #006bfb, 2px -2px 0 #006bfb, -2px 2px 0 #006bfb, -2px -2px 0 #006bfb, 2px 0px 0 #006bfb, 0px 2px 0 #000, -2px 0px 0 #006bfb, 0px -2px 0 #006bfb, 2px 2px 0 #006bfb, 2px -2px 0 #006bfb, -2px 2px 0 #006bfb, -2px -2px 0 #006bfb, 2px 0px 0 #006bfb, 0px 2px 0 #006bfb, -2px 0px 0 #006bfb, 0px -2px 0 #006bfb;
     padding-top: 80px;
     margin-left: 20px;
-    
 }
 
 #frase{
