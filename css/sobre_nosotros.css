@@ -22,28 +22,68 @@ html{
     text-align: center;
     letter-spacing: 2px;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 70px;
     color: #fff;
     text-shadow: 2px 2px 0 #006bfb, 2px -2px 0 #006bfb, -2px 2px 0 #006bfb, -2px -2px 0 #006bfb, 2px 0px 0 #006bfb, 0px 2px 0 #006bfb, -2px 0px 0 #006bfb, 0px -2px 0 #006bfb, 2px 2px 0 #006bfb, 2px -2px 0 #006bfb, -2px 2px 0 #006bfb, -2px -2px 0 #006bfb, 2px 0px 0 #006bfb, 0px 2px 0 #000, -2px 0px 0 #006bfb, 0px -2px 0 #006bfb, 2px 2px 0 #006bfb, 2px -2px 0 #006bfb, -2px 2px 0 #006bfb, -2px -2px 0 #006bfb, 2px 0px 0 #006bfb, 0px 2px 0 #006bfb, -2px 0px 0 #006bfb, 0px -2px 0 #006bfb;
 }
 
 
-h2 {
+h2,h3 {
     font-family: "Alumni Sans Inline One", sans-serif;
-    text-align: left;
+    text-align: center;
     font-weight: 400;
   
     letter-spacing: 1dvh;
-    font-weight: normal;
-    font-size: 30px;
+    
+    font-size: 40px;
     color: #0877ff;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    padding-top: 40px;
-    margin-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
 
+
+frame {
+    width:760px;
+    height:410px; 
+    border:5px groove #010d36;
+    border-radius:25px;
+    }
+#car2 {
+    padding-bottom: 7.5px;
+}
+.ubic {
+    display: flex; /* Activa el modelo de flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    
+    
+}
+p {
+    text-align: center;
+    padding-left: 350px;
+    padding-right: 350px;
+    line-height: 1.2;
+    padding-bottom: 10px;
+
+}
+.Car {
+    text-align: center;
+    padding-left: 350px;
+    padding-right: 350px;
+    line-height: 1.2; 
+    list-style-type: none;
+   
+}
+#direc{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    opacity: 0.5;
+}
 .info {
     padding-left: 2rem;
     list-style-type: none;
