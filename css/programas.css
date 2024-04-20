@@ -5,9 +5,9 @@
 }
 
 html{
-    background-image: url(..//img/bg.png);
+    background-image: url(..//img/prueba.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     width: 100%;
     height: 100%;
 }
@@ -20,36 +20,23 @@ html{
     font-size: 50px;
     color: #fff;
     text-shadow: 2px 2px 0 #006bfb, 2px -2px 0 #006bfb, -2px 2px 0 #006bfb, -2px -2px 0 #006bfb, 2px 0px 0 #006bfb, 0px 2px 0 #006bfb, -2px 0px 0 #006bfb, 0px -2px 0 #006bfb, 2px 2px 0 #006bfb, 2px -2px 0 #006bfb, -2px 2px 0 #006bfb, -2px -2px 0 #006bfb, 2px 0px 0 #006bfb, 0px 2px 0 #000, -2px 0px 0 #006bfb, 0px -2px 0 #006bfb, 2px 2px 0 #006bfb, 2px -2px 0 #006bfb, -2px 2px 0 #006bfb, -2px -2px 0 #006bfb, 2px 0px 0 #006bfb, 0px 2px 0 #006bfb, -2px 0px 0 #006bfb, 0px -2px 0 #006bfb;
-    /* padding-top: 80px; */
-}
-
-.subtitulo-1{
-    font-size: 30px;
-    color: #006bfb;
-    text-align: right;
-    margin-top: 60px;
-    margin-right: 150px;
 }
 
 .plan{
-    background-color: red;
-    margin-bottom: 20px;
-}
-
-#plan-fuerza-img{
-    width: 300px;
-    margin-left: 200px;
-    float: left;
-}
-
-.plan-1{
+    position: relative;
     width: 100%;
     height: 400px;
 }
 
-.plan-1 p{
+.subtitulo, span{
+    font-size: 30px;
+    color: #006bfb;
+    text-align: right;
+    margin-top: 60px;
+}
+
+.plan p{
     width: 95%;
-    /* float: right; */
     font-weight: 600;
     font-size: 20px;
     line-height: 1.3em;
@@ -57,3 +44,57 @@ html{
     margin-top: 80px;
     margin-right: 40px;
 }
+.plan-img{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 200px;
+    float: left;
+}
+
+.boton-consultar{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: #006bfb;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow: 5px -4px 26px 25px rgba(0,0,0,0.75);
+    transition: opacity 0.2s ease-in-out, border 0.1s ease-in-out;
+}
+
+.boton-consultar a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.boton-consultar:hover{
+    opacity: 0.5;
+    border: 3px solid #fff;
+}
+
+.boton-consultar{
+    right: 300px;
+    bottom: 60px;
+}
+
+
+/* Plan 1 */
+#subtitulo-1{
+    position: relative;
+    right: 200px;
+}
+
+
+/* Plan 2 */
+#subtitulo-2{
+    position: relative;
+    right: 250px;
+} 
+
+/* Plan 3 */
+#subtitulo-3{
+    position: relative;
+    right: 180px;
+} 
