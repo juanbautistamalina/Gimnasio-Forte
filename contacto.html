@@ -30,41 +30,37 @@
         <h1 id="titulo">CONTACTO</h1>
         <form action="">
             <fieldset>
-                <div class="bloque" id="bloque-1">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="Nombre" id="input-nombre" placeholder="John Doe">
+                <div class="bloque">
+                    <label for="input-nombre">Nombre</label>
+                    <input type="text" name="nombre" id="input-nombre" placeholder="John Doe">
                 </div>
 
-                <div class="bloque" id="bloque-2">
-                    <label for="correo">Correo</label>
+                <div class="bloque">
+                    <label for="input-correo">Correo</label>
                     <input type="email" name="correo" id="input-correo" placeholder="john.doe@example.com">
                 </div>
 
 
-                <div class="bloque" id="bloque-3">
+                <div class="bloque">
                     <label id="label-objetivos" for="objetivos">Objetivos</label>
                     <textarea name="" id="objetivos" cols="30" rows="10"
                         placeholder="¿Cuáles son tus objetivos de entrenamiento?"></textarea>
                 </div>
-
-                <div class="bloque" id="bloque-4">
-
-                    <select name="" id="" disabled="disabled"></select>
-                </div>
-
             </fieldset>
+
             <fieldset>
-                <label for="plan">Plan Seleccionado</label>
-                <select name="" id="dropdown">
-                    <option disabled selected>Seleccione una opción</option>
-                    <option value="programa-fuerza">Programa de entrenamiento de Fuerza</option>
-                    <option value="programa-hipertrofia">Programa de entrenamiento de Hipertrofia</option>
-                    <option value="programa-perdida-grasa">Programa de entrenamiento de Pérdida de Grasa</option>
-                </select>
+                <div class="bloque">
+                    <label for="plan-seleccionado">Plan</label>
+                    <select name="plan" id="plan-seleccionado">
+                        <option disabled selected>Seleccione una opción</option>
+                        <option value="programa-fuerza">Programa de entrenamiento de Fuerza</option>
+                        <option value="programa-hipertrofia">Programa de entrenamiento de Hipertrofia</option>
+                        <option value="programa-perdida-grasa">Programa de entrenamiento de Pérdida de Grasa</option>
+                    </select>
+                </div>
             </fieldset>
 
-
-
+            <div id="div-btn"><input type="submit" name="enviar" id="btn-enviar" value="ENVIAR"></div>
         </form>
 
 
